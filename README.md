@@ -1,2 +1,2 @@
-# unicorn_glitter
+# unicorn glitter
 another practice page for GWC
