@@ -1,7 +1,8 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <link rel="stylesheet" href="https://katyjane8.github.io/unicorn_glitter/style2.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style2.css?v=' | append: site.github.build_revision | relative_url }}" media="screen">
+        <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
     </head>
     <body>
       <h1>This is Katy's Website</h1>
